@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="smart_cart">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="dart.vm.product" value="true">
+  <meta name="webcam.stream.enable" value="true">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>smart_cart</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.min.js"></script>
+  <!-- Add jsQR library -->
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+
+</head>
+
+<body>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAaN6l0gS39Xuh8Orf8tmuTYOJiBuFz7gE",
+      authDomain: "smart-shopping-app-12cfd.firebaseapp.com",
+      databaseURL: "https://smart-shopping-app-12cfd-default-rtdb.firebaseio.com",
+      projectId: "smart-shopping-app-12cfd",
+      storageBucket: "smart-shopping-app-12cfd.firebasestorage.app",
+      messagingSenderId: "52215147179",
+      appId: "1:52215147179:web:3e65b22a9875fb0556a5ee",
+      measurementId: "G-NLTPTGJBJG"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+  </script>
+   <script src="main.dart.js" type="application/javascript"></script>
+  <script src="flutter_bootstrap.js" async></script>
+  <script src="flutter.js" defer></script>
+    <script>
+      window.addEventListener('load', function(ev) {
+        _flutter.loader.load({
+          serviceWorker: {
+            serviceWorkerVersion: 'v1'
+          }
+        });
+      });
+    </script>
+</body>
+
+</html>
