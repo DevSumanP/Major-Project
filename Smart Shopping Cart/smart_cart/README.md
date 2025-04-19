@@ -1,16 +1,4 @@
-# smart_cart
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![auth](https://github.com/user-attachments/assets/51d6be17-9a84-4da5-9850-b1d1fb0e6fe0)
+![profile](https://github.com/user-attachments/assets/cff43cff-7699-4d08-9a31-2c1c0b20794a)
+![mainscreen](https://github.com/user-attachments/assets/896e7d2d-1a2c-4b62-a739-0e66c3388ad7)
+![architecture](https://github.com/user-attachments/assets/972de6f7-9e67-4d3f-ba30-c2733626a906)
